@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<title>Aiden's Portfolio</title>
+<script src="portfolio.js"></script>
+<link rel="stylesheet" href="portfolio_style.css" />
+<body>
+  <main class="topBar">
+    <script src="portfolio.js"></script>
+    <style src="portfolio_style.css"></style>
+    <div class="connect">
+      <img class="resize" src="portfolioPFP.jpg" />
+      <div class="titleCenter">My&nbsp;Coding&nbsp;Portfolio</div>
+    </div>
+  </main>
+  <h4 style="text-align: center; font-size: larger">My Pong Program</h4>
+  <h4 style="text-align: center; font-size: auto">
+    Left Paddle(P1): UP; W || DOWN; S<br /><br />Right Paddle(P2): UP; O ||
+    DOWN; L
+  </h4>
+  <h4>
+    The&nbsp;second&nbsp;start&nbsp;button&nbsp;will&nbsp;start&nbsp;the&nbsp;game&nbsp;immediately.
+  </h4>
+  <head>
+    <button class="button shown" onclick="runPong()" id="pongGame">
+      Pong&nbsp;Start
+    </button>
+  </head>
+  <object data="Pong_Game/pong.html" class="game hidden" id="game"></object>
+</body>
