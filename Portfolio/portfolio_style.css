@@ -1,8 +1,21 @@
+body {
+  background-color: antiquewhite;
+  text-align: center;
+}
+
 .topBar {
   image-rendering: auto;
   height: 20vh;
   background-color: #0230bb;
   font-family: "Times New Roman", Times, serif;
+}
+
+.connect {
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  top: 30px;
 }
 
 .resize {
@@ -20,41 +33,6 @@
   top: -30px;
 }
 
-.showProject {
-  width: 50;
-  height: 50;
-  margin: 10px;
-}
-
-.connect {
-  margin: auto;
-  overflow: hidden;
-  white-space: nowrap;
-  position: relative;
-  top: 30px;
-}
-
-object {
-  border: 20px black;
-  margin: auto;
-  width: 620px;
-  height: 750px;
-  display: block;
-}
-
-body {
-  background-color: antiquewhite;
-  text-align: center;
-}
-
-.shown {
-  display: initial;
-}
-
-.hidden {
-  display: none;
-}
-
 button {
   cursor: pointer;
   padding: 6px, 18px;
@@ -69,4 +47,20 @@ button {
   height: 130%;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+object {
+  border: 20px black;
+  margin: auto;
+  width: 620px;
+  height: 750px;
+  display: block;
+}
+
+.shown {
+  display: initial;
+}
+
+.hidden {
+  display: none;
 }
